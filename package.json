@@ -1,0 +1,18 @@
+{
+  "name": "repro_testing_library_esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wtr src/**/*.test.js --node-resolve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.32",
+    "@testing-library/dom": "^7.29.4",
+    "@testing-library/user-event": "^12.6.0",
+    "@web/test-runner": "^0.12.3",
+    "@web/test-runner-playwright": "^0.8.0"
+  }
+}
